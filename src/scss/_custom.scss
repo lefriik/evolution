@@ -1,0 +1,33 @@
+
+//Reescribir variables de bootstrap Tiene que ser antes del import
+$rojo: #f34f51;
+$verde: #0098ae;
+$oscuro: #212121;
+$gold: #F1AF00;
+$gris: #e1e1e1;
+$gris2: #b5b5b5;
+
+//asignar paleta de colores a bs
+$primary: $gold;
+$secondary: $verde;
+$dark: $oscuro;
+
+//tipografia
+$display-font-weight: 900;
+$headings-font-weight: 700;
+
+/*cards*/
+
+$card-border-color: transparent;
+
+/*Nav link*/
+
+$nav-link-padding-x: 0;
+$nav-link-color: $gris2;
+$nav-link-hover-color: darken($gris2, 10%);
+
+
+
+
+//importar bootstrap
+@import '../../node_modules/bootstrap/scss/bootstrap.scss'; // archivo que contiene todos los mixins, variables y componentes de BS
